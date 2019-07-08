@@ -1,13 +1,16 @@
 {
 "companyName": "GameX Development",
 "productName": "Grid Warfare 3D",
+"productVersion": "0.1",
 "dataUrl": "Temp.data.unityweb",
 "wasmCodeUrl": "Temp.wasm.code.unityweb",
 "wasmFrameworkUrl": "Temp.wasm.framework.unityweb",
-"TOTAL_MEMORY": 268435456,
-"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
 "splashScreenStyle": "Dark",
 "backgroundColor": "#231F20",
-"cacheControl": {"default": "must-revalidate"}
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.9f1"
 }
