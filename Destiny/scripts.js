@@ -1,3 +1,10 @@
+const app = document.getElementById('root')
+
+const container = document.createElement('div')
+container.setAttribute('class', 'container')
+
+app.appendChild(container)
+
 // Create a request variable and assign a new XMLHttpRequest object to it.
 var request = new XMLHttpRequest()
 
@@ -11,6 +18,11 @@ request.onload = function () {
   data.forEach((vendor) => {
     if (vendor.drop == 2) {
     	console.log(vendor.shorthand)
+
+    	const h1 = document.createElement('h1')
+  		h1.textContent = vendor.shorthand
+
+		container.appendChild(h1)
 	}
   })
 }
