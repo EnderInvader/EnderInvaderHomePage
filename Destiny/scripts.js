@@ -22,7 +22,7 @@ request.onload = function () {
     	const h1 = document.createElement('h1')
   		h1.textContent = vendor.shorthand
 
-		container.appendChild(h1)
+		//container.appendChild(h1)
 	}
   })
 }
