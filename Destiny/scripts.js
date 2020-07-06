@@ -9,8 +9,9 @@ request.onload = function () {
   var data = JSON.parse(this.response)
 
   data.forEach((vendor) => {
-    // Log each vendor's name
-    console.log(vendor.shorthand)
+    if (vendor.drop == 2) {
+    	console.log(vendor.shorthand)
+	}
   })
 }
 
