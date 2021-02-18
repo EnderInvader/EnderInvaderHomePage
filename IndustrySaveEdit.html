@@ -52,7 +52,18 @@ function openF() {
 	
   document.getElementById("ddata").elements[1].value = decrypt;
   
-  //document.getElementById("demo").innerHTML = decrypt;
+  document.getElementById("demo").innerHTML = decrypt;
+}
+function closeF() {
+  var data = document.getElementById("ddata").elements[1].value;
+  
+  AES_KEY = '4t7w!z%C*F-JaNdRgUkXp2s5v8x/A?D(';
+  
+  encrypt = CryptoJS.AES.encrypt(data, AES_KEY).toString(CryptoJS.format.OpenSSL);
+	
+  document.getElementById("ddata").elements[0].value = encrypt;
+  
+  document.getElementById("demo").innerHTML = encrypt;
 }
 </script>
 	
