@@ -49,7 +49,7 @@ function openF() {
   
   decrypt = CryptoJS.AES.decrypt(data, AES_KEY).toString(CryptoJS.enc.Utf8);
   
-  document.getElementById("demo").innerHTML = data;
+  document.getElementById("demo").innerHTML = decrypt;
 }
 </script>
 	
