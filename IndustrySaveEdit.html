@@ -34,7 +34,7 @@
 
 <form id="ddata" action="/action_page.php">
   Save Data: <input type="text" name="fdata" value=""><br>
-  JSON Data: <input type="text" name="fjson" value=""><br>
+  JSON Data: <input type="text" name="fjson" value="this"><br>
 </form>
 
 <script src="libraries/cryptojs-aes.min.js" type="text/javascript"></script>
@@ -52,7 +52,7 @@ function openF() {
 	
   document.getElementById("ddata").elements[1].value = decrypt;
   
-  //document.getElementById("demo").innerHTML = decrypt;
+  document.getElementById("demo").innerHTML = decrypt;
 }
 </script>
 	
