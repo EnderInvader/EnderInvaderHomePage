@@ -53,7 +53,7 @@
 
 /* Clear floats after the columns */
 .hide {
-  display: none;
+  display: all;
 }
 </style>
 <link href="IndustrySaveEdit.css" rel="stylesheet" type="text/css" media="screen and (max-width:600px)">
@@ -85,7 +85,7 @@ function openF() {
   
   document.getElementById("demo").innerHTML = decrypt;
 	
-  document.getElementById("hidden").style.display="all";
+  //document.getElementById("hidden").style.display="all";
 }
 function closeF() {
   var data = document.getElementById("ddata").elements[1].value;
@@ -98,7 +98,7 @@ function closeF() {
   
   document.getElementById("demo").innerHTML = encrypt;
 	
-  document.getElementById("hidden").style.display="none";
+  //document.getElementById("hidden").style.display="none";
 }
 </script>
 	
