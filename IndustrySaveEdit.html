@@ -31,32 +31,7 @@
 	* {
   box-sizing: border-box;
 }
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-  width: 25%;
-}
-
-.lable {
-  width: 75%;
-}
-	
-.number {
-  width: 25%;
-}
-
-.middle {
-  width: 33.33%;
-}
-
-/* Clear floats after the columns */
-.hide {
-  display: all;
-}
 </style>
-<link href="IndustrySaveEdit.css" rel="stylesheet" type="text/css" media="screen and (max-width:600px)">
 </head>
 <body>
 	
@@ -102,39 +77,5 @@ function closeF() {
 }
 </script>
 	
-<div class="hide" id="hidden">
-  <div class="column" style="background-color:#aaa;">
-    <h2>Buildings</h2>
-    <p>Some text..</p>
-  </div>
-  <div class="column" style="background-color:#bbb;">
-    <div class="column lable" style="background-color:#bbb;">
-		<h3>Permits</h3>
-	</div>
-	<div class="column number" style="background-color:#bbb;">
-		<form id="permits" action="/action_page.php">
-			<h3><input type="text" name="fdata" size="1" value=""></h3>
-		</form>
-	</div>
-	<hr>
-	<div class="column lable" style="background-color:#bbb;">
-		<h3>Move Speed</h3>
-	</div>
-	<div class="column number" style="background-color:#bbb;">
-		<form id="movespeed" action="/action_page.php">
-			<h3><input type="text" name="fdata" size="1" value=""></h3>
-		</form>
-	</div>
-  </div>
-  <div class="column" style="background-color:#ccc;">
-    <h2>Column 3</h2>
-    <p>Some text..</p>
-  </div>
-  <div class="column" style="background-color:#ddd;">
-    <h2>Column 4</h2>
-    <p>Some text..</p>
-  </div>
-</div>
-
 </body>
 </html>                            
